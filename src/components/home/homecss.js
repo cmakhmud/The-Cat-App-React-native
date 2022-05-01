@@ -1,0 +1,52 @@
+import {StyleSheet} from 'react-native'
+
+export const homeStyle = StyleSheet.create({
+    homeView:{
+        width:'100%',
+        height:'100%',
+        padding:10,    
+    },
+    heartIcon:{
+        width:50,
+        height:50,
+        resizeMode:'contain'
+    },
+    iconLogoWrapper:{
+        width:'100%',
+        height:50,
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center',
+        marginBottom:20
+    },
+    homeLogo:{
+        fontSize:30,
+        fontWeight:'bold',
+        width:'80%'
+    },
+    homeSearchCat:{
+        width:'80%',
+        height:50,
+        borderWidth:2,
+        borderRadius:20,
+        borderColor:'black',
+        padding:5
+    },
+    searchInputIconWrapper:{
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center',
+        marginBottom:20
+    },
+    homeSearchButton:{
+        width:'100%',
+        height:'100%',
+        resizeMode:'contain'
+    },
+    searchCatOpacity:{
+        width:'20%',
+        height:50,
+    }
+})
